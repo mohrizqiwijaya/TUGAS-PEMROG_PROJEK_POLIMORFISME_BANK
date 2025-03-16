@@ -13,20 +13,20 @@ public class BankMain {
         
         
         Bank BankUmum = new Bank();
-        BankUmum.TransferUang(10000, "9876543210");
-        BankUmum.TransferUang(50000, "3698521470", "BCA");
-        BankUmum.TransferUang(100000, "7894561230", "BNI", "Bukti Pembayaran invoice");
+        BankUmum.TransferUang(20000, "7854745454");
+        BankUmum.TransferUang(100000, "9872546612", "BCA");
+        BankUmum.TransferUang(200000, "58412142541", "BNI", "Bukti Pembayaran invoice");
         
         BankUmum.SukuBunga();
         
         BCA bca = new BCA("Bank BCA");
-        BNI bni = new BNI("Bank bni");
+        BNI bni = new BNI("Bank BNI");
         
         bca.SukuBunga();
         bni.SukuBunga();
         
-        bca.TransferUang(600000, "3654789120", "BNI");
-        bni.TransferUang(700000, "4561235741", "BCA");
+        bca.TransferUang(600000, "9872546612", "BNI");
+        bni.TransferUang(700000, "58412142541", "BCA");
         
     }
     
