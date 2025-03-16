@@ -25,8 +25,8 @@ public class BankMain {
         bca.SukuBunga();
         bni.SukuBunga();
         
-        bca.TransferUang(600000, "9872546612", "BNI");
-        bni.TransferUang(700000, "58412142541", "BCA");
+        bca.TransferUang(1000000, "9872546612", "BNI");
+        bni.TransferUang(5000000, "58412142541", "BCA");
         
     }
     
